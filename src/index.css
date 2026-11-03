@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+* {
+  transition: all 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+
+[data-reveal] {
+    transition: none !important;
+}
+
+@theme {
+  --color-brand-red: #c0392b;
+  --color-brand-blue: #1e40af;
+  --color-brand-brown: #6b4226;
+  --padding-padding-x:  
+;
+}
+
+@layer components {
+  .card-style {
+    @apply w-fit bg-brand-blue;
+  }
+
+  .section-px {
+    @apply px-4 md:px-10 lg:px-16;
+  }
+
+  .section-padding {
+    @apply py-8 md:py-10 lg:py-16 px-4 md:px-10 lg:px-16;
+  }
+
+  .heroHeading {
+    @apply text-[22px] md:text-[30px] lg:text-[60px] font-bold;
+  }
+
+  .heroDescription {
+    @apply text-gray-200 text-[15px] lg:text-[17px] w-fit lg:w-[700px];
+  }
+
+  .section-heading{
+    @apply text-2xl lg:text-4xl font-bold leading-12
+  }
+
+  
+}
+
+.sectionBgStyle {
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-repeat: no-repeat;
+}
+
+.transparentCard {
+  background-blend-mode: darken;
+  background-color: rgba(53, 52, 52, 0.7)
+}
