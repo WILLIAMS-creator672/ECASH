@@ -1,28 +1,32 @@
-import { div, h1 } from "motion/react-client";
-import missionVisionImg from "../../../assets/images/landing/missionVision.jpg";
-import { SectionThreeContent } from "../data";
+import missionVisionImg from "@/assets/images/landing/missionVision.jpg";
+import { SectionThreeContent } from "./data";
 import { FiCheck } from "react-icons/fi";
+import Reveal from "@/components/Reveal";
 
 export default function SectionThree() {
   return (
-    <section className="section-padding bg-brand-blue flex flex-col items-center gap-4 lg:gap-8 h-100 relative">
-      <div className="flex flex-col items-center gap-2 lg:gap-4 text-white">
-        <p>MISSION & VISION</p>
-        <h1 className="section-heading">
+    <section className="section-padding flex flex-col items-center gap-4 lg:gap-8 ">
+      <div className="flex flex-col items-center gap-2 lg:gap-4">
+        <p className="font-bold">MISSION & VISION</p>
+        <Reveal x={-60} y={0} delay={0.2} className="section-heading">
           World’s Leading Digital Bank. <br /> Your Trust, Our Technology.
-        </h1>
+        </Reveal>
       </div>
-      <img
+     <Reveal>
+       <img
         src={missionVisionImg}
         alt=""
         className="w-auto lg:w-250 h-auto lg:h-80 rounded-2xl"
-      />{" "}
+      />
+     </Reveal>
+     {" "}
       <br />
 
-      <div className="flex flex-col lg:flex-row gap-10 mt-15 lg:mt-0">
+      <div className="flex flex-col lg:flex-row gap-10">
         {SectionThreeContent.map((item) => {
           return (
-            <div
+            <Reveal
+            
               key={item.title}
               className="shadow-2xl flex flex-col justify-between w-fit lg:w-150 h-fit lg:h-100 px-8 py-8 rounded-2xl"
             >
@@ -48,7 +52,7 @@ export default function SectionThree() {
                   </div>
                 ))}
               </div>
-            </div>
+            </Reveal>
           );
         })}
       </div>

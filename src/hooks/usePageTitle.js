@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { APP_CONFIG } from "../constants/appConfig";
+import { APP_CONFIG } from "@/constants/appConfig";
 
 export function usePageTitle(pageName) {
     useEffect(() => {

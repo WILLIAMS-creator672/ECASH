@@ -1,8 +1,8 @@
 import { FiArrowRight } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import { FiUmbrella } from "react-icons/fi";
-import insuranceImage from "../../../assets/images/landing/insurance.jpg";
-import Reveal from "../../../components/Reveal";
+import insuranceImage from "@/assets/images/landing/insurance.jpg";
+import Reveal from "@/components/Reveal";
 
 export default function SectionTwo() {
   return (
@@ -10,7 +10,7 @@ export default function SectionTwo() {
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
         <div>
           <p className="text-brand-blue ">OUR SOLUTIONS</p> <br />
-          <Reveal x={-60} y={0} delay={0.2} className="sectionHeading">
+          <Reveal x={-60} y={0} delay={0.2} className="section-heading">
             Your Financial Goals, Our <br /> Purpose: Explore Our <br />{" "}
             Solutions.
           </Reveal>

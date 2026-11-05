@@ -1,9 +1,9 @@
-import heroBg from "../../../assets/images/landing/trybg.jpg";
-import { APP_CONFIG } from "../../../constants/appConfig";
-import { heroContent } from "../data";
+import heroBg from "@/assets/images/landing/heroBg.jpg";
+import { APP_CONFIG } from "@/constants/appConfig";
+import { heroContent } from "./data";
 import { FiArrowRight } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
-import Reveal from "../../../components/Reveal";
+import Reveal from "@/components/Reveal";
 
 export default function Hero() {
   return (

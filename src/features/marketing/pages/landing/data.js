@@ -1,5 +1,6 @@
 import { FiCreditCard, FiBriefcase, FiUmbrella } from "react-icons/fi";
 
+// HERO CONTENT
 export const heroContent = [
   {
     id: 1,
@@ -25,6 +26,7 @@ export const heroContent = [
   },
 ];
 
+// SECTION THREE CONTENT
 export const SectionThreeContent = [
   {
     title: "Our Mission",
@@ -46,5 +48,60 @@ export const SectionThreeContent = [
       "Unleashing Financial Potential",
       "Digital Banking for the Next Generation",
     ],
+  },
+];
+
+// STATS CONTENT
+export const statsContent = [
+  {
+    id: 1,
+    to: 15,
+    suffix: "M",
+    label: "Satisfied Global Customers",
+  },
+  {
+    id: 2,
+    to: 1200,
+    suffix: "+",
+    label: "Experts Team Members",
+  },
+  {
+    id: 3,
+    to: 10,
+    suffix: "M",
+    label: "Credit & Debit Cards Approved",
+  },
+  {
+    id: 4,
+    to: 580,
+    suffix: "+",
+    label: "Branches Worldwide",
+  },
+];
+
+export const offersContent = [
+  {
+    icon: "",
+    title: "Efficient Account Management",
+    description:
+      "Manage your finances effortlessly with real-time account monitoring, automated budgeting tools, and seamless money transfers—all in one user-friendly digital platform.",
+  },
+  {
+    icon: "",
+    title: "24/7 Customer Support",
+    description:
+      "Our dedicated support team is available around the clock to assist with inquiries, resolve issues, and provide guidance, ensuring a smooth banking experience anytime, anywhere.",
+  },
+  {
+    icon: "",
+    title: "Unmatched Convenience",
+    description:
+      "Enjoy a seamless digital banking experience with instant payments, mobile check deposits, and AI-powered financial insights designed to make banking faster and smarter.",
+  },
+  {
+    icon: "",
+    title: "Secure Online Transactions",
+    description:
+      "Protect your financial data with multi-layered security, encrypted transactions, and biometric authentication, ensuring your money and information remain safe.",
   },
 ];

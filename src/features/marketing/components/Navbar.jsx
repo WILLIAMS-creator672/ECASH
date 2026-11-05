@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from "react"
 import { NavLink } from "react-router-dom"
 import { FiChevronDown } from "react-icons/fi"
-import Logo from "./Logo"
-import Button from "./Button"
-import { APP_CONFIG } from "../constants/appConfig"
+import Logo from "@/components/Logo"
+import Button from "@/components/Button"
+import { APP_CONFIG } from "@/constants/appConfig"
 
 
 export default function NavBar() {
