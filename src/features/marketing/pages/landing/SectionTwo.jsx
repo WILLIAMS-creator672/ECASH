@@ -37,7 +37,7 @@ export default function SectionTwo() {
             <h1 className="text-[17px] lg:text-[20px] font-extrabold">Insurance Service</h1>
           </div>
 
-          <p className="w-fit lg:w-150 mt-5 lg:mt-0 mb-5 lg:mb-0">Protect your financial future with our tailored insurance plans, ensuring security for you and your loved ones.</p>
+          <p className="w-fit lg:w-150 mt-5 lg:mt-0 mb-5 lg:mb-0 text-[13px] lg:text-[16px]">Protect your financial future with our tailored insurance plans, ensuring security for you and your loved ones.</p>
 
           <NavLink className='flex items-center gap-2 text-brand-red hover:text-brand-blue hover:tracking-wider w-fit active:gray-400'>
             LEARN MORE <FiArrowRight/>
