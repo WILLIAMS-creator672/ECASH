@@ -5,8 +5,8 @@ import Reveal from "@/components/Reveal";
 
 export default function SectionThree() {
   return (
-    <section className="section-padding flex flex-col items-center gap-4 lg:gap-8 ">
-      <div className="flex flex-col items-center gap-2 lg:gap-4">
+    <section className="section-padding flex flex-col items-center gap-4 lg:gap-8 bg-brand-blue">
+      <div className="flex flex-col items-center gap-2 lg:gap-4 text-white">
         <p className="font-bold">MISSION & VISION</p>
         <Reveal x={-60} y={0} delay={0.2} className="section-heading">
           World’s Leading Digital Bank. <br /> Your Trust, Our Technology.
@@ -28,7 +28,7 @@ export default function SectionThree() {
             <Reveal
             
               key={item.title}
-              className="shadow-2xl flex flex-col justify-between w-fit lg:w-150 h-fit lg:h-100 px-8 py-8 rounded-2xl"
+              className="shadow-2xl flex flex-col justify-between w-fit lg:w-150 h-fit lg:h-100 px-8 py-8 rounded-2xl bg-gray-200"
             >
               <h1 className="text-[17px] lg:text-[20px] font-extrabold">
                 {item.title}

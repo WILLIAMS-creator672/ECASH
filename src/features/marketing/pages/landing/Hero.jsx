@@ -38,8 +38,8 @@ export default function Hero() {
               className="transparentCard backdrop-blur-lg flex flex-col justify-between gap- w-fit lg:w-90 h-90 lg:h-120 text-white px-4 py-6 rounded-2xl"
             >
               <div className="flex w-fit items-center gap-5">
-                <div className="text-brand-blue rounded-full bg-gray-200 p-2 lg:p-4">
-                  <Icon strokeWidth={2.5} className="text-2xl" />
+                <div className="card-icon-style">
+                  <Icon strokeWidth={2.5}/>
                 </div>
                 <h1 className="text-[17px] lg:text-[20px] font-extrabold">
                   {item.title}

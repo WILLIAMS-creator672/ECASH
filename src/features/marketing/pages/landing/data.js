@@ -1,4 +1,14 @@
-import { FiCreditCard, FiBriefcase, FiUmbrella } from "react-icons/fi";
+import {
+  FiCreditCard,
+  FiBriefcase,
+  FiUmbrella,
+  FiSettings,
+  FiHeadphones,
+  FiSmartphone,
+  FiLock,
+} from "react-icons/fi";
+
+import testimonialImg from "@/assets/images/landing/testimonials.jpg";
 
 // HERO CONTENT
 export const heroContent = [
@@ -81,27 +91,60 @@ export const statsContent = [
 
 export const offersContent = [
   {
-    icon: "",
+    icon: FiSettings,
     title: "Efficient Account Management",
     description:
       "Manage your finances effortlessly with real-time account monitoring, automated budgeting tools, and seamless money transfers—all in one user-friendly digital platform.",
   },
   {
-    icon: "",
+    icon: FiHeadphones,
     title: "24/7 Customer Support",
     description:
       "Our dedicated support team is available around the clock to assist with inquiries, resolve issues, and provide guidance, ensuring a smooth banking experience anytime, anywhere.",
   },
   {
-    icon: "",
+    icon: FiSmartphone,
     title: "Unmatched Convenience",
     description:
       "Enjoy a seamless digital banking experience with instant payments, mobile check deposits, and AI-powered financial insights designed to make banking faster and smarter.",
   },
   {
-    icon: "",
+    icon: FiLock,
     title: "Secure Online Transactions",
     description:
       "Protect your financial data with multi-layered security, encrypted transactions, and biometric authentication, ensuring your money and information remain safe.",
+  },
+];
+
+export const testimonialsContent = [
+  {
+    id: 1,
+    featured: true,
+    image: testimonialImg,
+    avatar: "",
+    name: "",
+    role: "",
+    text: "",
+  },
+  {
+    id: 2,
+    avatar: testimonialImg,
+    name: "",
+    role: "",
+    text: "",
+  },
+  {
+    id: 3,
+    avatar: testimonialImg,
+    name: "",
+    role: "",
+    text: "",
+  },
+  {
+    id: 4,
+    avatar: testimonialImg,
+    name: "",
+    role: "",
+    text: "",
   },
 ];

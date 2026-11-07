@@ -6,10 +6,10 @@ import Reveal from "@/components/Reveal";
 
 export default function SectionTwo() {
   return (
-    <section className="section-padding bg-gray-100 flex flex-col gap-10 lg:gap-20">
+    <section className="section-padding bg-gray-200 flex flex-col gap-10 lg:gap-20">
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
         <div>
-          <p className="text-brand-blue ">OUR SOLUTIONS</p> <br />
+          <p className="text-brand-blue">OUR SOLUTIONS</p> <br />
           <Reveal x={-60} y={0} delay={0.2} className="section-heading">
             Your Financial Goals, Our <br /> Purpose: Explore Our <br />{" "}
             Solutions.
@@ -18,7 +18,7 @@ export default function SectionTwo() {
 
         <NavLink
           to="/services"
-          className="flex items-center gap-2 text-brand-red hover:tracking-wider mt-6 active:gray-400"
+          className="flex items-center gap-2 text-brand-red hover:tracking-wider mt-6 active:bg-gray-400 active:gray-400"
         >
           VIEW ALL SOLUTONS <FiArrowRight />
         </NavLink>

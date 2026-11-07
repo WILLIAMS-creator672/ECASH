@@ -22,6 +22,10 @@
     @apply w-fit bg-brand-blue;
   }
 
+  .card-icon-style{
+    @apply text-brand-blue rounded-full bg-gray-200 p-4 text-2xl w-fit
+  }
+
   .section-px {
     @apply px-4 md:px-10 lg:px-16;
   }
